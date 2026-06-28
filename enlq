@@ -1,1 +1,580 @@
-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
+{
+  "ActionIndex": 6,
+  "ActorSize": 0.9839997887611389,
+  "AttackMultiplier": 5.0,
+  "CircleSize": 700.0,
+  "NightVision": true,
+  "ObjectSize": 1.0,
+  "OutCircleSize": 100.0,
+  "UGC2Angle": true,
+  "actorBag": true,
+  "actorBox": true,
+  "actorHand": true,
+  "actorInfo": true,
+  "actorLine": true,
+  "actorTeammate": true,
+  "actorsBag": true,
+  "actorsBagMargin": 100.0,
+  "actorsBagMode": 1,
+  "actorsBagScale": 1.0,
+  "actorsRoleIcon": true,
+  "advancedMaterial": true,
+  "antiRecord": false,
+  "anticipate": true,
+  "atkHeight": 800.0,
+  "atkMultiplier": 1,
+  "atkRange": 15.0,
+  "attackHalo": true,
+  "attackRange": true,
+  "autoBlocking": true,
+  "autoEvacuate": false,
+  "autoPickup": false,
+  "autoSubmit": false,
+  "autoSway": false,
+  "autoSwayAmplitude": 1.0,
+  "autoSwayForwardAmplitude": 0.0,
+  "autoSwayIntervalMs": 100,
+  "autoSwayMovePacketIntervalMs": 200,
+  "blurEnabled": false,
+  "blurQualityMode": 1,
+  "closeACE": true,
+  "coordDecrypt": false,
+  "czrLightMode": false,
+  "decay_collect_fps": 120,
+  "decay_collect_seconds": 1.100000023841858,
+  "defogging": true,
+  "displayCoffin": true,
+  "doorDist": 15.0,
+  "drawActor": true,
+  "drawObjGuide": true,
+  "drawObject": true,
+  "electromagnetic": false,
+  "enemyRange": 1000.0,
+  "floatingButtons": [
+    {
+      "id": "ChangeGuns",
+      "visible": true,
+      "x": 660.0,
+      "y": 187.0
+    },
+    {
+      "id": "ChangeGuns1",
+      "visible": true,
+      "x": 751.0,
+      "y": 193.0
+    },
+    {
+      "id": "aim",
+      "visible": false,
+      "x": 2120.0,
+      "y": 69.0
+    },
+    {
+      "id": "radar",
+      "visible": false,
+      "x": 40.0,
+      "y": 320.0
+    },
+    {
+      "id": "luffy",
+      "visible": true,
+      "x": 566.0,
+      "y": 96.0
+    },
+    {
+      "id": "npcaim",
+      "visible": false,
+      "x": 798.0,
+      "y": 185.0
+    },
+    {
+      "id": "coordDecrypt",
+      "visible": false,
+      "x": 40.0,
+      "y": 820.0
+    },
+    {
+      "id": "attackHalo",
+      "visible": true,
+      "x": 568.0,
+      "y": 190.0
+    },
+    {
+      "id": "predict_decay",
+      "visible": true,
+      "x": 665.0,
+      "y": 100.0
+    },
+    {
+      "id": "freecam",
+      "visible": true,
+      "x": 750.0,
+      "y": 100.0
+    },
+    {
+      "id": "autoSway",
+      "visible": false,
+      "x": 675.0,
+      "y": 0.0
+    },
+    {
+      "id": "predict_algo",
+      "visible": false,
+      "x": 40.0,
+      "y": 980.0
+    },
+    {
+      "id": "smoothPredict",
+      "visible": false,
+      "x": 40.0,
+      "y": 1120.0
+    },
+    {
+      "id": "netLatencyCalib",
+      "visible": false,
+      "x": 40.0,
+      "y": 1220.0
+    }
+  ],
+  "fly_goal_high": 1.4177000522613525,
+  "fpsCapsuleEnabled": false,
+  "fpsCapsulePos": {
+    "x": 40.0,
+    "y": 120.0
+  },
+  "freeCam": {
+    "ctrlScale": 1.0,
+    "enabled": false,
+    "speed": 80.0,
+    "stickX": 300.0,
+    "stickY": 617.0,
+    "vertX": 1880.0,
+    "vertY": 574.0
+  },
+  "freezePernew": true,
+  "freezeRender": true,
+  "gamespeed": 1.2700001001358032,
+  "goal_high": 1.2599999904632568,
+  "handheldSize": 1.0,
+  "hookGun": false,
+  "interceptLog": true,
+  "isAimNPC": true,
+  "isHaveCircle": false,
+  "liangdu1": 1000.0,
+  "liangdu2": 1.5,
+  "luffy": true,
+  "luffy_anticipate": 0.019999999552965164,
+  "luffy_distance": 4.5,
+  "luffy_high": 0.5,
+  "luffy_scope": 100.0,
+  "model_luffy": false,
+  "monsterRange": 200.0,
+  "netLatencyAutoAddMs": 1.0,
+  "netLatencyCalib": false,
+  "netLatencyManualMs": 4.0,
+  "netLatencyMode": 2,
+  "objectBox": true,
+  "objg_BlindBox": false,
+  "objg_Entrance": false,
+  "objg_Item": true,
+  "objg_Line": false,
+  "objg_Monster": true,
+  "objg_Vehicle": true,
+  "objg_Waste": false,
+  "objg_bullet": true,
+  "objg_bulletTail": true,
+  "objg_value": 40000,
+  "openDoor": true,
+  "outOfRange_revolver": {
+    "flySpeed": [
+      330.0,
+      330.0,
+      330.0
+    ],
+    "landSpeed": [
+      330.0,
+      330.0,
+      330.0
+    ],
+    "strafeDecay": [
+      0.949999988079071,
+      1.0,
+      0.949999988079071
+    ],
+    "strafeDecayStep": [
+      0.15000000596046448,
+      0.05000000074505806,
+      0.15000000596046448
+    ],
+    "strafeDist": 0.5,
+    "strafeTimes": 1
+  },
+  "outOfRange_shotgun": {
+    "flySpeed": [
+      380.0,
+      380.0,
+      380.0
+    ],
+    "landSpeed": [
+      380.0,
+      380.0,
+      380.0
+    ],
+    "strafeDecay": [
+      0.949999988079071,
+      1.0,
+      0.949999988079071
+    ],
+    "strafeDecayStep": [
+      0.15000000596046448,
+      0.05000000074505806,
+      0.15000000596046448
+    ],
+    "strafeDist": 0.5,
+    "strafeTimes": 1
+  },
+  "outScreenAim": true,
+  "pernew_value": 117.0,
+  "pickupDist": 8.0,
+  "predict_algo": 1,
+  "predict_decay": false,
+  "priorityIndex": 0,
+  "radarEnabled": false,
+  "radarRange": 400.0,
+  "radarScale": 1.0,
+  "render_dis": 1500.0,
+  "rotateSwitchGun": true,
+  "segments_revolver": [
+    {
+      "flySpeed": [
+        330.0,
+        330.0,
+        330.0
+      ],
+      "landSpeed": [
+        330.0,
+        330.0,
+        330.0
+      ],
+      "maxDist": 100.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.15000000596046448,
+        0.05000000074505806,
+        0.15000000596046448
+      ],
+      "strafeDist": 0.5,
+      "strafeTimes": 1
+    },
+    {
+      "flySpeed": [
+        330.0,
+        330.0,
+        330.0
+      ],
+      "landSpeed": [
+        330.0,
+        330.0,
+        330.0
+      ],
+      "maxDist": 200.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.15000000596046448,
+        0.05000000074505806,
+        0.15000000596046448
+      ],
+      "strafeDist": 0.5,
+      "strafeTimes": 1
+    },
+    {
+      "flySpeed": [
+        330.0,
+        330.0,
+        330.0
+      ],
+      "landSpeed": [
+        330.0,
+        330.0,
+        330.0
+      ],
+      "maxDist": 350.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.15000000596046448,
+        0.05000000074505806,
+        0.15000000596046448
+      ],
+      "strafeDist": 0.5,
+      "strafeTimes": 1
+    }
+  ],
+  "segments_shotgun": [
+    {
+      "flySpeed": [
+        320.0,
+        300.0,
+        320.0
+      ],
+      "landSpeed": [
+        380.0,
+        380.0,
+        380.0
+      ],
+      "maxDist": 50.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.050000011920928955,
+        0.04999999701976776,
+        0.050000011920928955
+      ],
+      "strafeDist": 0.30000001192092896,
+      "strafeTimes": 2
+    },
+    {
+      "flySpeed": [
+        325.0,
+        305.0,
+        325.0
+      ],
+      "landSpeed": [
+        380.0,
+        380.0,
+        380.0
+      ],
+      "maxDist": 100.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.050000011920928955,
+        0.04999999701976776,
+        0.050000011920928955
+      ],
+      "strafeDist": 0.30000001192092896,
+      "strafeTimes": 2
+    },
+    {
+      "flySpeed": [
+        329.0,
+        309.0,
+        329.0
+      ],
+      "landSpeed": [
+        380.0,
+        380.0,
+        380.0
+      ],
+      "maxDist": 150.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.05000000074505806,
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "strafeDist": 0.4000000059604645,
+      "strafeTimes": 2
+    },
+    {
+      "flySpeed": [
+        334.0,
+        324.0,
+        334.0
+      ],
+      "landSpeed": [
+        380.0,
+        380.0,
+        380.0
+      ],
+      "maxDist": 200.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.05000000074505806,
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "strafeDist": 0.5,
+      "strafeTimes": 4
+    },
+    {
+      "flySpeed": [
+        339.0,
+        320.0,
+        339.0
+      ],
+      "landSpeed": [
+        380.0,
+        380.0,
+        380.0
+      ],
+      "maxDist": 250.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.05000000074505806,
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "strafeDist": 0.5,
+      "strafeTimes": 4
+    },
+    {
+      "flySpeed": [
+        345.0,
+        325.0,
+        345.0
+      ],
+      "landSpeed": [
+        380.0,
+        380.0,
+        380.0
+      ],
+      "maxDist": 300.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.05000000074505806,
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "strafeDist": 0.5,
+      "strafeTimes": 2
+    },
+    {
+      "flySpeed": [
+        350.0,
+        329.0,
+        350.0
+      ],
+      "landSpeed": [
+        380.0,
+        380.0,
+        380.0
+      ],
+      "maxDist": 350.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.05000000074505806,
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "strafeDist": 0.5,
+      "strafeTimes": 2
+    },
+    {
+      "flySpeed": [
+        356.0,
+        332.0,
+        356.0
+      ],
+      "landSpeed": [
+        380.0,
+        380.0,
+        380.0
+      ],
+      "maxDist": 400.0,
+      "strafeDecay": [
+        0.949999988079071,
+        1.0,
+        0.949999988079071
+      ],
+      "strafeDecayStep": [
+        0.05000000074505806,
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "strafeDist": 0.5,
+      "strafeTimes": 2
+    }
+  ],
+  "self_high": 1.7400000095367432,
+  "severSwitchLoad": true,
+  "shortcutBtnSize": 90.0,
+  "shortcutLayout": [
+    {
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0
+    }
+  ],
+  "silence": true,
+  "silenceAdjust": false,
+  "smoothPredict": false,
+  "switchAtk": true,
+  "switchBow": false,
+  "switchGun": true,
+  "switchIntervalMs": 0,
+  "switchInventoryGun": false,
+  "switchJetpack": true,
+  "switchLoad": true,
+  "switchProtection": false,
+  "targetFrameRate": 60,
+  "target_circle": 4.0,
+  "tbbScale": 0.8999997973442078,
+  "tbbTopOffset": 0.0,
+  "traceLine": true,
+  "uiLanguage": 0
+}
