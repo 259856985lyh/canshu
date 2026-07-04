@@ -1,1 +1,4316 @@
-H4sIAAAAAAAAAO2cW4/bNhaA3/MrinkOBrxf+jaZpk0WSZvNZLu7WAQDjU171MiSIcuTTov+9z0iJVuiaFPyOIstUgVBAvLw/vGcw5t/f/YNfBdXsyot8tf53Px68e034vkutChv0t8MhKFLJQmCjypBqEJatUJVlcw+vd1mVbrOUlOCLL9ETeR1Ws4y02SBIfUu5sd0eV/9nG6gWIiqyq1pIn66+8XMqjbJJWJEw6eIorbkVmpb+Xnvsv7HD9fkKl9mpp9xUrfmRbIMhRZ1sxdJtukFv0ryeUD6db4oAsFv0tyEcvlgktUqqUK12bjq9JLMH5J8ZuZvIUWZJpmXKq/SWboe5lZ9emXqHq17n+/7H8J7I4P34e+TfGl7ritdD+WrJPObZ8PbBN2IbVW8yIrZpzT3uxViXj4ks62raq+FEHWzvVul1TDJzefkMSQOwVcraES1nTsYKdP2Y4hqTjn3hL8vys9JOe+nQZ7Q6xy6+CHJ3m4cQF702+LBvIN2m+qA4F22Lf++TaAEkLVltN07y4qNubp+2W/g7DdgBMaoEe42cm5myePtrMgyYP92sbYFERSM3ZhZkc83tkl2RsJHtEKEEsJ2KRbFcjkYlXm6WWfJ43WxWKTetJsXRflduqlsC3ddNS+Tz1YLeMIQDPP0h206bImLgor2k5i67mWxSpa5AYa9yNysHlu+KN+Xv8iKpIJmvNhWVZHXbf6Pjai/33f/s6JpPVUvru/rXH7YguzzfvwD6Jo7TyfsIuvpz7Rsy92F1zAycol2oX88H1s+nlwBrsXTK5Ckq8MFdwaq33QULJgQNKHkMpkn5dnKppPKzraLxePkDic6WLRAYkLR+Xp2tM8PlC0RDw/2lLI7Cvtc/S4m9fu6NPMUdJLVUGerg5xUh0VpoPTpI0BJGHqlp4xAa7Qml06DpXPcG3/7v487Zfh4uyyS7PYerIh1jqgzglJgrjAjrRx0yDV0yLedKl+A8s1uZknmTKEWyPlymAktidzXBHRxAhWfD0ftYrM2Nhz3Ru1iA+r807+suuDDiH/XbRU9zXrxYMqqToBxvxdsxC7Bs07/2zb9Zt6ZMjef+7bDxbw34Lt6VmqZrMyuzpeisZRUMax46732+5NxK8OkUFTinRDo9Pm9yeZ7p7SNKIpPoOs9E5jW7sLMrKs3hWd/081Vuvrx3bWfYPMqeTDOn+0nyFIwJ/Mtrvuk4+E2waQO3gdaHdhPXgfd9pxGyIQSh40iGCtQdqInDT5CVXugPT/eRcX6yUltZsW6Tk06dnwFLk9229aw2/YVmHXortb4d9IU1osYuuYQvrx9kaX5/EDcy7wqmxYM4l5XZtXvIxsc8N1t+FtXu0CKn819OhguG/PPZDPweW3E3RYcuCqQwkV8SNIsEAl+59ZYXYl2nid0cP5d4Xtlxbb6aWE78rY0D0X2YCve0QGgQG6a+bB3o+qPSBjTenIwhhkShD8fRNcjThHHkkuFh9H17KJCEIw0lXwX/bEzuTOYRYeK58fz58drx60fjMFdkYhiEi5+A1AszHfWUPkVQJeC9TSpVwOIb+YMJxQLotggvqddpI5V4aYy60A1kJ/vMOBYzs5/R5d8EPUhBV1Yz92eVu0Qs7kvqqVVZeOAYZeDYWB+bYmkY0bmCBhqYKOJwoOSFbqUtT6TUhMt1AH+jgPArUrDGknKlKDU73en8TDWBGlwEcQg3gmANiScSypPBID7+VIHFsMS1ncc0wF5RxvrgCC2e4L0enhwH4+bGZjXHKxWX9WsrSHe6SZM92q77xL2U5VpUcJqud1napPYlcPLkN/holrjQPb+ootoHZq9RS6tH1AbMc9kbsxyZfJq01WNB9eSB7mvP4oHnnsbXA8WVhQjDm5VWAT1Qj/2hY5MBZueoGN6shWRNS9EEiaQZmGRnjo9WqNV8mtDER0668emVP2Bo4mtp0ElzMraPgyrg0OdiS6Vc1G40EwpHqlkbF65LIPlhAPHlBZQtp3ovsKtv8NLiQhu6LLeOUUCI8oxFyGu4oOOtOtSCrqLKcaegiFWl6Snb0NVUsdsdivSmzAjORRfhkOQcapWg4BkoCiDWFpNqqRAhFDoy68XS6Q82x6CbpzMeApiYB71I1sR2p0HYZFT9GPnCGIXGwfTByoInfNNWN0uzELTDWQs4JpSAlpAy68ZTBLVlyAS59LL5ilcIjmivFNkxqJJ/kLzWGn/IzTBaMZcxJEiEyiIoYmidhqhqGPri4zlkp/EpcdTkDl0bDnnZKRbFUkMbEuJvl4Xk2gU1T21TESt1iJPWd4QHV1B1SLxmvLTYFSnwOhDFATN7g4RopSCSvEgsPIrxk+x6LiDSMSzq0XOZbDrM6BocTqmOAciI0Ek+CQQw+jZ/SPCJdMECR5wd0HG3SIgCnqOwOz5ekGUKraOrkViZEg1YdhjICJvaz2EWdSE1yK9Wo8lMXBAO4JEj6fQsIvmCEohCTY60Isg4mx4u6V6fMfiz4Hls05m+x3J/db7iRuSVLnzhyMrHhCJLYqo7K+Mn+JVChYtTtBopQWZsGfVoXZ4s2LEBpG2B2xYCkY0aMvRG5VaI4uyqKcodOD/L6bYVdS/NOeJn28hTlkcyzgnlJ4PS66CO/dc+lPYBYtDx0qhovf8nbSo0f3dx/AGpRJOaXLONVIHZCzHRGJYGmF1DhoRdmdbCFNEFQ9vjNaKurmNAn/A0qCgUh9mNolg7oqAOUolzLYvDfBAtbfBIYqI9nbFn0Qq7qu+EJ44upPJ3bnA5P2ik1ZCHnlhOO1sh+kOEIO3H5RxKyrFCSzIWMRVGUswa5iDPlVahVdptXvkPiIQLOXCc3CY1xSASaOCKWOUKfB8vjDBREQZAWsZI40cvGARanKEbMY9rRooEGSiB0zMsy4j0cYnLa58KMPgWs22uwISlun6xvQsbIvmagJl0DbGD6hd3lyYlwhrKWRweg7zmsR2o5wRE0CM8O/IeGyTp7NN4pAQHIcNZM620U+1p3BD5sPfvg2766P39k9ao3kgBlkVVi8oDIs0+BsWcTtbiINHqeV5vA3tSBWacQKG4oC3oZoriCBBATwZlvLzmsIzxY016N0Y9aTPhzMecVaKZRwvLJ92xwT87SCRg/vKLtifhGOplSdR6/EWZrJ/VS8o41SVVBwcSXKeEylMW+dBwfDoA+4vbl7sgHalSOFw9YZ5TeLW3UU8dCbngUufDi4bAS4dAS594uUoGfd1RNzXEacdsZKTTv99EMOwSrczgYXAVAY1HawanaIDRUXBBT8L0M2dWI0R17BYCxoJWM41N2eZEAqADQv5WU3hmaEJi74z4By/boV0dGMDqfNdtwIHJe7o+FdgwzLjHZ0O2add/POIDFNrh1Zyghg74JNqppxHqogiUo6y4FGym30wzqGvOMAZhlY1azVYp4EtCc7NYVaTyG5ujStYzIDn7XfS2dFGg/eFLpgHLT5iU7a/4jez4kaCjTASLGIkOtyedlHQ4y3MpFNnRDHJWFjnaYbdubASot5OOAe3pHn1jGFygSo84BoT4lxjpRkSWoQ940FWU7jlqL/SO4otezq28b0wFN8LQ5P2wmK3ZnTcSMQPZZA86XyDnuZqeEAGoaW6cU51/eIguE1ml1v11hdQwNV5LmYT6RQh/EM54+FZV2/L2Y9TwWBFhsIOySCvSWQHXwl60gGyn3XyvtiYbBF9K7cxD6a8+ZxWs/s3ReL9zMTmviir2bZ6UeXNm0O1f4vXRr5JHottdezU0L6xCD4zHfe+9q/0f4r0ffjSzLi3j12eXODV/JetBb37wmZjGbyqPnlJbPCL4nMo2L15HQT3ficDeVEPJq+K8nH4XNYJ/M1U62QWrERgftjwd2VRGfvDNf3YKimXpvq+TFbmvXv0uv8pDRd3O2vf2tL2JzSa+dm+ha3u7vavpcMXGmqZD8X6p8ViY6ruSF2AlpiZ5klpp17b9E2SL7eJfcuEnv3x7L/UoKHyfUcAAA==
+{
+    "ActionIndex": 6,
+    "ActorSize": 0.5849999189376831,
+    "AttackMultiplier": 5.0,
+    "CircleSize": 2800.0,
+    "NightVision": true,
+    "ObjectSize": 0.8429999947547913,
+    "OutCircleSize": 100.0,
+    "UGC2Angle": true,
+    "actorBag": true,
+    "actorBox": true,
+    "actorHand": true,
+    "actorInfo": true,
+    "actorLine": false,
+    "actorTeammate": true,
+    "actorsBag": true,
+    "actorsBagMargin": 0.0,
+    "actorsBagMode": 1,
+    "actorsBagScale": 0.7200002670288086,
+    "actorsRoleIcon": true,
+    "advancedMaterial": true,
+    "antiRecord": true,
+    "anticipate": true,
+    "atkHeight": 20.0,
+    "atkMultiplier": 1,
+    "atkRange": 8.0,
+    "attackHalo": true,
+    "attackRange": true,
+    "autoBlocking": false,
+    "autoEvacuate": false,
+    "autoPickup": false,
+    "autoSubmit": true,
+    "autoSway": false,
+    "autoSwayAmplitude": 1.0,
+    "autoSwayForwardAmplitude": 0.0,
+    "autoSwayIntervalMs": 100,
+    "autoSwayMovePacketIntervalMs": 200,
+    "blurEnabled": false,
+    "blurQualityMode": 1,
+    "closeACE": true,
+    "coordDecrypt": false,
+    "czrLightMode": true,
+    "decay_collect_fps": 120,
+    "decay_collect_seconds": 0.8039999604225159,
+    "defogging": true,
+    "displayCoffin": true,
+    "doorDist": 15.0,
+    "drawActor": true,
+    "drawObjGuide": true,
+    "drawObject": true,
+    "electromagnetic": true,
+    "enemyRange": 1000.0,
+    "floatingButtons": [
+        {
+            "id": "ChangeGuns",
+            "visible": false,
+            "x": 928.0,
+            "y": 0.0
+        },
+        {
+            "id": "ChangeGuns1",
+            "visible": true,
+            "x": 1053.0,
+            "y": 206.0
+        },
+        {
+            "id": "aim",
+            "visible": false,
+            "x": 2120.0,
+            "y": 69.0
+        },
+        {
+            "id": "radar",
+            "visible": false,
+            "x": 40.0,
+            "y": 320.0
+        },
+        {
+            "id": "luffy",
+            "visible": true,
+            "x": 922.0,
+            "y": 111.0
+        },
+        {
+            "id": "npcaim",
+            "visible": false,
+            "x": 677.0,
+            "y": 2.0
+        },
+        {
+            "id": "coordDecrypt",
+            "visible": false,
+            "x": 40.0,
+            "y": 820.0
+        },
+        {
+            "id": "attackHalo",
+            "visible": false,
+            "x": 640.0,
+            "y": 0.0
+        },
+        {
+            "id": "predict_decay",
+            "visible": true,
+            "x": 1032.0,
+            "y": 95.0
+        },
+        {
+            "id": "freecam",
+            "visible": true,
+            "x": 696.0,
+            "y": 101.0
+        },
+        {
+            "id": "autoSway",
+            "visible": true,
+            "x": 885.0,
+            "y": 327.0
+        },
+        {
+            "id": "predict_algo",
+            "visible": false,
+            "x": 807.0,
+            "y": 107.0
+        },
+        {
+            "id": "smoothPredict",
+            "visible": false,
+            "x": 110.0,
+            "y": 392.0
+        },
+        {
+            "id": "netLatencyCalib",
+            "visible": false,
+            "x": 792.0,
+            "y": 0.0
+        }
+    ],
+    "fly_goal_high": 1.4234999418258667,
+    "fpsCapsuleEnabled": true,
+    "fpsCapsulePos": {
+        "x": 1100.0,
+        "y": 27.0
+    },
+    "freeCam": {
+        "ctrlScale": 1.239999771118164,
+        "enabled": false,
+        "speed": 81.0,
+        "stickX": 242.0,
+        "stickY": 481.9200439453125,
+        "vertX": 1502.8800048828125,
+        "vertY": 447.2000427246094
+    },
+    "freezePernew": true,
+    "freezeRender": true,
+    "gamespeed": 1.590000033378601,
+    "goal_high": 1.5,
+    "handheldSize": 1.0,
+    "hookGun": false,
+    "interceptLog": true,
+    "isAimNPC": true,
+    "isHaveCircle": true,
+    "liangdu1": 1000.0,
+    "liangdu2": 5.0,
+    "luffy": false,
+    "luffy_anticipate": 0.019999999552965164,
+    "luffy_distance": 5.0,
+    "luffy_high": 0.5,
+    "luffy_scope": 600.0,
+    "model_luffy": false,
+    "monsterRange": 200.0,
+    "netLatencyAutoAddMs": 0.0,
+    "netLatencyCalib": true,
+    "netLatencyManualMs": 30.0,
+    "netLatencyMode": 1,
+    "objectBox": true,
+    "objg_BlindBox": false,
+    "objg_Entrance": false,
+    "objg_Item": true,
+    "objg_Line": false,
+    "objg_Monster": true,
+    "objg_Vehicle": true,
+    "objg_Waste": false,
+    "objg_bullet": true,
+    "objg_bulletTail": true,
+    "objg_value": 50000,
+    "openDoor": true,
+    "outOfRange_revolver": {
+        "flySpeed": [
+            330.0,
+            330.0,
+            330.0
+        ],
+        "landSpeed": [
+            330.0,
+            330.0,
+            330.0
+        ],
+        "strafeDecay": [
+            0.949999988079071,
+            1.0,
+            0.949999988079071
+        ],
+        "strafeDecayStep": [
+            0.15000000596046448,
+            0.05000000074505806,
+            0.15000000596046448
+        ],
+        "strafeDist": 0.5,
+        "strafeTimes": 1
+    },
+    "outOfRange_shotgun": {
+        "flySpeed": [
+            375.0,
+            360.0,
+            375.0
+        ],
+        "landSpeed": [
+            380.0,
+            380.0,
+            380.0
+        ],
+        "strafeDecay": [
+            0.949999988079071,
+            1.0,
+            0.949999988079071
+        ],
+        "strafeDecayStep": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "strafeDist": 0.5,
+        "strafeTimes": 2
+    },
+    "outScreenAim": true,
+    "pernew_value": 110.0,
+    "pickupDist": 25.0,
+    "predict_algo": 2,
+    "predict_decay": false,
+    "priorityIndex": 0,
+    "radarEnabled": false,
+    "radarRange": 400.0,
+    "radarScale": 1.0,
+    "render_dis": 500.0,
+    "rotateSwitchGun": false,
+    "segments_revolver": [
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 5.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 10.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 15.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 20.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 25.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 30.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 35.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 40.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 45.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 50.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 55.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 60.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 65.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 70.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 75.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 80.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 85.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 90.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 95.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 100.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 105.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 110.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 115.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 120.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 125.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 130.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 135.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 140.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 145.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 150.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 155.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 160.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 165.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 170.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 175.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 180.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 185.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 190.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 195.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 200.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 205.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 210.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 215.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 220.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 225.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 230.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 235.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 240.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 245.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 250.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 255.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 260.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 265.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 270.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 275.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 280.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 285.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 290.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 295.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 300.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 305.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 310.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 315.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 320.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 325.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 330.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 335.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 340.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 345.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 350.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 355.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 360.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 365.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 370.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 375.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 380.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 385.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 390.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 395.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 400.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        }
+    ],
+    "segments_shotgun": [
+        {
+            "flySpeed": [
+                320.0,
+                320.0,
+                320.0
+            ],
+            "landSpeed": [
+                360.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 49.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                320.0,
+                320.0,
+                320.0
+            ],
+            "landSpeed": [
+                360.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 50.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                320.0,
+                320.0,
+                320.0
+            ],
+            "landSpeed": [
+                360.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 51.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                320.0,
+                320.0,
+                320.0
+            ],
+            "landSpeed": [
+                360.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 52.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                320.0,
+                320.0,
+                320.0
+            ],
+            "landSpeed": [
+                360.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 53.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                320.0,
+                320.0,
+                320.0
+            ],
+            "landSpeed": [
+                360.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 54.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                320.0,
+                320.0,
+                320.0
+            ],
+            "landSpeed": [
+                360.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 55.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                320.0,
+                320.0,
+                320.0
+            ],
+            "landSpeed": [
+                360.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 56.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                320.0,
+                320.0,
+                320.0
+            ],
+            "landSpeed": [
+                360.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 57.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                320.0,
+                320.0,
+                320.0
+            ],
+            "landSpeed": [
+                360.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 58.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                321.0,
+                321.0,
+                321.0
+            ],
+            "landSpeed": [
+                370.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 59.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                322.0,
+                322.0,
+                322.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 60.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9500000476837158,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                323.0,
+                323.0,
+                323.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 65.0,
+            "strafeDecay": [
+                0.949999988079071,
+                0.9750000238418579,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.07500000298023224,
+                0.02500000037252903,
+                0.07500000298023224
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                324.0,
+                324.0,
+                324.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 70.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                325.0,
+                325.0,
+                325.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.1000061035156
+            ],
+            "maxDist": 75.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                326.0,
+                326.0,
+                326.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.20001220703125
+            ],
+            "maxDist": 80.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                327.0,
+                327.0,
+                327.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.1000061035156
+            ],
+            "maxDist": 85.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                328.0,
+                328.0,
+                328.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 90.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                329.0,
+                329.0,
+                329.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 95.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 100.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                331.0,
+                331.0,
+                331.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 105.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                332.0,
+                332.0,
+                332.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 110.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                333.0,
+                333.0,
+                333.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 115.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                334.0,
+                334.0,
+                334.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 120.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                335.0,
+                335.0,
+                335.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 125.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                336.0,
+                336.0,
+                336.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 130.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                337.0,
+                337.0,
+                337.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 135.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                338.0,
+                338.0,
+                338.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 140.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                339.0,
+                339.0,
+                339.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 145.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                340.0,
+                340.0,
+                340.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 150.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                341.0,
+                340.5,
+                341.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 155.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                342.0,
+                341.0,
+                342.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 160.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                343.0,
+                341.5,
+                343.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 165.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                344.0,
+                342.0,
+                344.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 170.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                345.0,
+                342.5,
+                345.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 175.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                346.0,
+                343.0,
+                346.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 180.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                347.0,
+                343.5,
+                347.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 185.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                348.0,
+                344.0,
+                348.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 190.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                349.0,
+                344.5,
+                349.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 195.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                350.0,
+                345.0,
+                350.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 200.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                351.0,
+                345.5,
+                351.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 205.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                352.0,
+                346.0,
+                352.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 210.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                353.0,
+                346.5,
+                353.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 215.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                354.0,
+                347.0,
+                354.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 220.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                355.0,
+                347.75,
+                355.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 225.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                356.0,
+                348.5,
+                356.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 230.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                357.0,
+                349.25,
+                357.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 235.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                358.0,
+                350.0,
+                358.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 240.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                360.25,
+                350.5,
+                360.25
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 245.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                362.5,
+                351.0,
+                362.5
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 250.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                364.75,
+                351.5,
+                364.75
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 255.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                367.0,
+                352.0,
+                367.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 260.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                367.75,
+                352.75,
+                367.75
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 265.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                368.5,
+                353.5,
+                368.5
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 270.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                369.25,
+                354.25,
+                369.25
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 275.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                370.0,
+                355.0,
+                370.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 280.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                370.75,
+                356.25,
+                370.75
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 285.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                371.5,
+                357.5,
+                371.5
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 290.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                372.25,
+                358.75,
+                372.25
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 295.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                373.0,
+                360.0,
+                373.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 300.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 2
+        },
+        {
+            "flySpeed": [
+                374.3500061035156,
+                362.0,
+                374.3500061035156
+            ],
+            "landSpeed": [
+                381.0,
+                381.0,
+                381.0
+            ],
+            "maxDist": 305.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                375.70001220703125,
+                364.0,
+                375.70001220703125
+            ],
+            "landSpeed": [
+                382.0,
+                382.0,
+                382.0
+            ],
+            "maxDist": 310.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                377.04998779296875,
+                366.0,
+                377.04998779296875
+            ],
+            "landSpeed": [
+                383.0,
+                383.0,
+                383.0
+            ],
+            "maxDist": 315.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                378.3999938964844,
+                368.0,
+                378.3999938964844
+            ],
+            "landSpeed": [
+                384.0,
+                384.0,
+                384.0
+            ],
+            "maxDist": 320.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                379.75,
+                370.0,
+                379.75
+            ],
+            "landSpeed": [
+                385.0,
+                385.0,
+                385.0
+            ],
+            "maxDist": 325.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                381.1000061035156,
+                372.0,
+                381.1000061035156
+            ],
+            "landSpeed": [
+                386.0,
+                386.0,
+                386.0
+            ],
+            "maxDist": 330.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                382.45001220703125,
+                374.0,
+                382.45001220703125
+            ],
+            "landSpeed": [
+                387.0,
+                387.0,
+                387.0
+            ],
+            "maxDist": 335.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                383.79998779296875,
+                376.0,
+                383.79998779296875
+            ],
+            "landSpeed": [
+                388.0,
+                388.0,
+                388.0
+            ],
+            "maxDist": 340.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                385.1499938964844,
+                378.0,
+                385.1499938964844
+            ],
+            "landSpeed": [
+                389.0,
+                389.0,
+                389.0
+            ],
+            "maxDist": 345.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                386.5,
+                380.0,
+                386.5
+            ],
+            "landSpeed": [
+                390.0,
+                390.0,
+                390.0
+            ],
+            "maxDist": 350.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                387.8500061035156,
+                382.0,
+                387.8500061035156
+            ],
+            "landSpeed": [
+                391.0,
+                391.0,
+                391.0
+            ],
+            "maxDist": 355.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                389.20001220703125,
+                384.0,
+                389.20001220703125
+            ],
+            "landSpeed": [
+                392.0,
+                392.0,
+                392.0
+            ],
+            "maxDist": 360.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                390.54998779296875,
+                386.0,
+                390.54998779296875
+            ],
+            "landSpeed": [
+                393.0,
+                393.0,
+                393.0
+            ],
+            "maxDist": 365.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                391.8999938964844,
+                388.0,
+                391.8999938964844
+            ],
+            "landSpeed": [
+                394.0,
+                394.0,
+                394.0
+            ],
+            "maxDist": 370.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                393.25,
+                390.0,
+                393.25
+            ],
+            "landSpeed": [
+                395.0,
+                395.0,
+                395.0
+            ],
+            "maxDist": 375.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                394.6000061035156,
+                392.0,
+                394.6000061035156
+            ],
+            "landSpeed": [
+                396.0,
+                396.0,
+                396.0
+            ],
+            "maxDist": 380.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                395.95001220703125,
+                394.0,
+                395.95001220703125
+            ],
+            "landSpeed": [
+                397.0,
+                397.0,
+                397.0
+            ],
+            "maxDist": 385.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                397.29998779296875,
+                396.0,
+                397.29998779296875
+            ],
+            "landSpeed": [
+                398.0,
+                398.0,
+                398.0
+            ],
+            "maxDist": 390.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                398.6499938964844,
+                398.0,
+                398.6499938964844
+            ],
+            "landSpeed": [
+                399.0,
+                399.0,
+                399.0
+            ],
+            "maxDist": 395.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        },
+        {
+            "flySpeed": [
+                400.0,
+                400.0,
+                400.0
+            ],
+            "landSpeed": [
+                400.0,
+                400.0,
+                400.0
+            ],
+            "maxDist": 400.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 3
+        }
+    ],
+    "self_high": 1.2799999713897705,
+    "severSwitchLoad": true,
+    "shortcutBtnSize": 90.0,
+    "shortcutLayout": [
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        }
+    ],
+    "silence": true,
+    "silenceAdjust": false,
+    "skyEnabled": false,
+    "skyFace0": "/storage/emulated/0/DCIM/skybox_1.png",
+    "skyFace1": "/storage/emulated/0/DCIM/skybox_2.png",
+    "skyFace2": "/storage/emulated/0/DCIM/skybox_3.png",
+    "skyFace3": "/storage/emulated/0/DCIM/skybox_4.png",
+    "skyFace4": "/storage/emulated/0/DCIM/skybox_5.png",
+    "skyFace5": "/storage/emulated/0/DCIM/skybox_6.png",
+    "skyFaceMode": 0,
+    "skyFolder": "/storage/emulated/0/DCIM/",
+    "skyInputMode": 0,
+    "skyUniformPath": "/storage/emulated/0/DCIM/Screenshot_2026-06-29-01-10-27-59_40d30947b37419455897df6aa3094b56.jpg",
+    "smoothPredict": false,
+    "switchAtk": true,
+    "switchBow": true,
+    "switchGun": true,
+    "switchIntervalMs": 1,
+    "switchInventoryGun": false,
+    "switchJetpack": true,
+    "switchLoad": true,
+    "switchProtection": true,
+    "targetFrameRate": 120,
+    "target_circle": 3.0,
+    "tbbScale": 0.6000003814697266,
+    "tbbTopOffset": 15.0,
+    "traceLine": true,
+    "uiLanguage": 0
+}
