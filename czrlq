@@ -1,1 +1,78 @@
-czrlq
+{
+	"aimbot":	{
+		"enable":	true,
+		"tickFps":	60,
+		"scanPlayer":	true,
+		"scanMonster":	false,
+		"filterSelf":	true,
+		"filterDeadPlayer":	true,
+		"filterDeadMonster":	true,
+		"filterTeam":	true,
+		"filterLily":	false,
+		"enableFovFilter":	true,
+		"drawFovCircle":	true,
+		"fovRadius":	800,
+		"selfPosSrc":	1,
+		"targetSelMode":	0,
+		"enablePredict":	true,
+		"enableProjectilePredict":	true,
+		"enableDynamicLead":	true,
+		"enableServerFrameLead":	false,
+		"enableNetPingLead":	false,
+		"serverFrameLeadScale":	0.5,
+		"netPingLeadScale":	0.5,
+		"weaponId":	0,
+		"targetYOffset":	1.2799999713897705,
+		"selfModelShootYOffset":	1.2999999523162842,
+		"outMode":	1,
+		"enableLuffy":	true,
+		"luffyMaxDist":	5,
+		"luffyMoveDist":	4.9000000953674316,
+		"predictProfiles":	[{
+				"weaponId":	12,
+				"leadTable":	[{
+						"minDist":	0,
+						"maxDist":	20,
+						"netLeadMs":	33
+					}, {
+						"minDist":	20,
+						"maxDist":	40,
+						"netLeadMs":	49
+					}, {
+						"minDist":	40,
+						"maxDist":	60,
+						"netLeadMs":	77
+					}, {
+						"minDist":	60,
+						"maxDist":	80,
+						"netLeadMs":	82
+					}, {
+						"minDist":	80,
+						"maxDist":	100,
+						"netLeadMs":	110
+					}, {
+						"minDist":	100,
+						"maxDist":	120,
+						"netLeadMs":	146
+					}, {
+						"minDist":	120,
+						"maxDist":	140,
+						"netLeadMs":	158
+					}]
+			}, {
+				"weaponId":	35,
+				"leadTable":	[{
+						"minDist":	0,
+						"maxDist":	1000,
+						"netLeadMs":	33
+					}]
+			}, {
+				"weaponId":	131,
+				"leadTable":	[{
+						"minDist":	0,
+						"maxDist":	1000,
+						"netLeadMs":	33
+					}]
+			}]
+	}
+}
