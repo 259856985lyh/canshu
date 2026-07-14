@@ -1,1 +1,901 @@
-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
+{
+    "ActionIndex": 6,
+    "ActorSize": 0.815000057220459,
+    "AttackMultiplier": 5.0,
+    "CircleSize": 350.0,
+    "NightVision": true,
+    "ObjectSize": 0.7580000758171082,
+    "OutCircleSize": 100.0,
+    "UGC2Angle": true,
+    "actorBag": true,
+    "actorBox": false,
+    "actorHand": true,
+    "actorInfo": true,
+    "actorLine": false,
+    "actorTeammate": false,
+    "actorsBag": true,
+    "actorsBagMargin": 35.0,
+    "actorsBagMode": 1,
+    "actorsBagScale": 0.820000171661377,
+    "actorsRoleIcon": true,
+    "advancedMaterial": true,
+    "antiRecord": true,
+    "anticipate": true,
+    "atkHeight": 20.0,
+    "atkMultiplier": 1,
+    "atkRange": 10.0,
+    "attackHalo": true,
+    "attackRange": true,
+    "autoBlocking": true,
+    "autoEvacuate": false,
+    "autoOpenBox": true,
+    "autoOpenDist": 5.0,
+    "autoOpenInterval": 0.05000000074505806,
+    "autoPickup": false,
+    "autoSubmit": true,
+    "autoSway": false,
+    "autoSwayAmplitude": 1.0,
+    "autoSwayForwardAmplitude": 0.0,
+    "autoSwayIntervalMs": 200,
+    "autoSwayMovePacketIntervalMs": 200,
+    "bgKeepRender": false,
+    "blurEnabled": true,
+    "blurQualityMode": 0,
+    "charRotate": false,
+    "charRotateSpeedDeg": 900,
+    "closeACE": true,
+    "coordDecrypt": false,
+    "czrLightMode": false,
+    "decay_collect_fps": 120,
+    "decay_collect_seconds": 0.843999981880188,
+    "defogging": true,
+    "displayCoffin": true,
+    "doorDist": 8.0,
+    "drawActor": true,
+    "drawObjGuide": true,
+    "drawObject": true,
+    "electromagnetic": true,
+    "enemyRange": 1000.0,
+    "facePacketIntervalMs": 200,
+    "floatingButtons": [
+        {
+            "id": "ChangeGuns",
+            "visible": false,
+            "x": 202.0,
+            "y": 287.0
+        },
+        {
+            "id": "ChangeGuns1",
+            "visible": true,
+            "x": 1660.0,
+            "y": 346.0
+        },
+        {
+            "id": "aim",
+            "visible": false,
+            "x": 2310.0,
+            "y": 176.0
+        },
+        {
+            "id": "radar",
+            "visible": false,
+            "x": 40.0,
+            "y": 320.0
+        },
+        {
+            "id": "luffy",
+            "visible": true,
+            "x": 1654.0,
+            "y": 439.0
+        },
+        {
+            "id": "npcaim",
+            "visible": false,
+            "x": 2310.0,
+            "y": 468.0
+        },
+        {
+            "id": "coordDecrypt",
+            "visible": false,
+            "x": 40.0,
+            "y": 820.0
+        },
+        {
+            "id": "attackHalo",
+            "visible": false,
+            "x": 799.0,
+            "y": 529.0
+        },
+        {
+            "id": "predict_decay",
+            "visible": true,
+            "x": 1646.0,
+            "y": 533.0
+        },
+        {
+            "id": "freecam",
+            "visible": true,
+            "x": 759.0,
+            "y": 522.0
+        },
+        {
+            "id": "autoSway",
+            "visible": false,
+            "x": 135.0,
+            "y": 918.0
+        },
+        {
+            "id": "predict_algo",
+            "visible": false,
+            "x": 40.0,
+            "y": 990.0
+        },
+        {
+            "id": "smoothPredict",
+            "visible": false,
+            "x": 40.0,
+            "y": 1120.0
+        },
+        {
+            "id": "netLatencyCalib",
+            "visible": false,
+            "x": 2310.0,
+            "y": 270.0
+        }
+    ],
+    "fly_goal_high": 1.399999976158142,
+    "fpsCapsuleEnabled": true,
+    "fpsCapsulePos": {
+        "x": 1133.0,
+        "y": 174.0
+    },
+    "freeCam": {
+        "ctrlScale": 1.5,
+        "enabled": false,
+        "speed": 78.0,
+        "stickX": 309.0,
+        "stickY": 600.0,
+        "vertX": 1813.0,
+        "vertY": 567.0
+    },
+    "freezePernew": true,
+    "freezeRender": true,
+    "gamespeed": 1.590000033378601,
+    "goal_high": 1.3964999914169312,
+    "handheldSize": 1.0,
+    "hookGun": false,
+    "interceptLog": true,
+    "isAimNPC": false,
+    "isHaveCircle": false,
+    "liangdu1": 520.0,
+    "liangdu2": 2.5,
+    "luffy": false,
+    "luffy_anticipate": 0.054999999701976776,
+    "luffy_distance": 3.5,
+    "luffy_high": 0.5,
+    "luffy_scope": 100.0,
+    "model_luffy": false,
+    "monsterRange": 1000.0,
+    "netLatencyAutoAddMs": 9.0,
+    "netLatencyCalib": true,
+    "netLatencyManualMs": 45.0,
+    "netLatencyMode": 1,
+    "objectBox": false,
+    "objg_BlindBox": false,
+    "objg_Entrance": false,
+    "objg_Item": true,
+    "objg_Line": false,
+    "objg_Monster": true,
+    "objg_Vehicle": true,
+    "objg_Waste": true,
+    "objg_bullet": true,
+    "objg_bulletTail": true,
+    "objg_value": 20000,
+    "openDoor": true,
+    "outOfRange_revolver": {
+        "flySpeed": [
+            330.0,
+            330.0,
+            330.0
+        ],
+        "landSpeed": [
+            330.0,
+            330.0,
+            330.0
+        ],
+        "strafeDecay": [
+            0.949999988079071,
+            1.0,
+            0.949999988079071
+        ],
+        "strafeDecayStep": [
+            0.15000000596046448,
+            0.05000000074505806,
+            0.15000000596046448
+        ],
+        "strafeDist": 0.5,
+        "strafeTimes": 1
+    },
+    "outOfRange_shotgun": {
+        "flySpeed": [
+            400.0,
+            400.0,
+            400.0
+        ],
+        "landSpeed": [
+            400.0,
+            400.0,
+            400.0
+        ],
+        "strafeDecay": [
+            0.949999988079071,
+            1.0,
+            0.949999988079071
+        ],
+        "strafeDecayStep": [
+            0.15000000596046448,
+            0.05000000074505806,
+            0.15000000596046448
+        ],
+        "strafeDist": 0.5,
+        "strafeTimes": 1
+    },
+    "outScreenAim": true,
+    "pernew_value": 120.0,
+    "pickupDist": 8.0,
+    "predict_algo": 2,
+    "predict_decay": false,
+    "priorityIndex": 0,
+    "radarEnabled": false,
+    "radarRange": 400.0,
+    "radarScale": 1.0,
+    "render_dis": 1314.0,
+    "rotateSwitchGun": false,
+    "segments_revolver": [
+        {
+            "flySpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 20.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                330.0,
+                315.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 40.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                310.0,
+                295.0,
+                330.0
+            ],
+            "landSpeed": [
+                330.0,
+                330.0,
+                330.0
+            ],
+            "maxDist": 60.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                295.0,
+                270.0,
+                380.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 80.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                295.0,
+                255.0,
+                380.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 100.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                265.0,
+                240.0,
+                380.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 120.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                260.0,
+                230.0,
+                380.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 140.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                250.0,
+                215.0,
+                380.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 160.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                200.0,
+                200.0,
+                380.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 180.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                190.0,
+                190.0,
+                380.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 200.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        }
+    ],
+    "segments_shotgun": [
+        {
+            "flySpeed": [
+                332.0,
+                314.0,
+                288.0
+            ],
+            "landSpeed": [
+                250.0,
+                250.0,
+                250.0
+            ],
+            "maxDist": 30.0,
+            "strafeDecay": [
+                0.9999999403953552,
+                1.0,
+                0.9999999403953552
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.9999998211860657,
+            "strafeTimes": 8
+        },
+        {
+            "flySpeed": [
+                339.0,
+                328.0,
+                305.0
+            ],
+            "landSpeed": [
+                273.0,
+                273.0,
+                273.0
+            ],
+            "maxDist": 60.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 1.0999999046325684,
+            "strafeTimes": 7
+        },
+        {
+            "flySpeed": [
+                348.0,
+                336.0,
+                322.0
+            ],
+            "landSpeed": [
+                298.0,
+                298.0,
+                298.0
+            ],
+            "maxDist": 90.0,
+            "strafeDecay": [
+                0.9999999403953552,
+                1.0,
+                0.9999999403953552
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 1.2000000476837158,
+            "strafeTimes": 7
+        },
+        {
+            "flySpeed": [
+                354.0,
+                358.0,
+                338.0
+            ],
+            "landSpeed": [
+                315.0,
+                315.0,
+                315.0
+            ],
+            "maxDist": 110.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.9599999785423279
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 1.2999999523162842,
+            "strafeTimes": 8
+        },
+        {
+            "flySpeed": [
+                362.0,
+                369.0,
+                345.0
+            ],
+            "landSpeed": [
+                328.0,
+                328.0,
+                328.0
+            ],
+            "maxDist": 130.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 1.399999976158142,
+            "strafeTimes": 8
+        },
+        {
+            "flySpeed": [
+                368.0,
+                376.0,
+                351.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 150.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 1.5,
+            "strafeTimes": 6
+        },
+        {
+            "flySpeed": [
+                343.0,
+                381.0,
+                358.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 170.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 1.5,
+            "strafeTimes": 8
+        },
+        {
+            "flySpeed": [
+                339.0,
+                347.0,
+                360.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 190.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 1.100000023841858,
+            "strafeTimes": 8
+        },
+        {
+            "flySpeed": [
+                335.0,
+                344.0,
+                357.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 210.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 1.0,
+            "strafeTimes": 5
+        },
+        {
+            "flySpeed": [
+                325.0,
+                332.0,
+                350.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 230.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.800000011920929,
+            "strafeTimes": 5
+        },
+        {
+            "flySpeed": [
+                319.0,
+                324.0,
+                346.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 250.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.9599999785423279
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.6000000238418579,
+            "strafeTimes": 5
+        },
+        {
+            "flySpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 270.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        },
+        {
+            "flySpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "landSpeed": [
+                380.0,
+                380.0,
+                380.0
+            ],
+            "maxDist": 300.0,
+            "strafeDecay": [
+                0.949999988079071,
+                1.0,
+                0.949999988079071
+            ],
+            "strafeDecayStep": [
+                0.15000000596046448,
+                0.05000000074505806,
+                0.15000000596046448
+            ],
+            "strafeDist": 0.5,
+            "strafeTimes": 1
+        }
+    ],
+    "self_high": 1.2000000476837158,
+    "severSwitchLoad": true,
+    "shortcutBtnSize": 91.0,
+    "shortcutLayout": [
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "x": 0.0,
+            "y": 0.0
+        }
+    ],
+    "silence": true,
+    "silenceAdjust": true,
+    "silentBlock": false,
+    "skyEnabled": false,
+    "skyFace0": "",
+    "skyFace1": "",
+    "skyFace2": "",
+    "skyFace3": "",
+    "skyFace4": "",
+    "skyFace5": "",
+    "skyFaceMode": 0,
+    "skyFolder": "",
+    "skyInputMode": 0,
+    "skyUniformPath": "",
+    "smoothPredict": false,
+    "sndHitPath": "",
+    "sndShotPath": "",
+    "switchAtk": true,
+    "switchBow": true,
+    "switchGun": true,
+    "switchIntervalMs": 0,
+    "switchInventoryGun": false,
+    "switchJetpack": true,
+    "switchLoad": true,
+    "switchProtection": false,
+    "targetFrameRate": 144,
+    "target_circle": 3.0,
+    "tbbScale": 0.6600003242492676,
+    "tbbTopOffset": 0.0,
+    "traceLine": true,
+    "uiLanguage": 0
+}
