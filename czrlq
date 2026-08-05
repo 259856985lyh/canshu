@@ -169,7 +169,7 @@
 						"motionSpeedTable":	[{
 								"minSpeed":	0,
 								"maxSpeed":	10,
-								"netLeadMs":	-8
+								"netLeadMs":	-9
 							}, {
 								"minSpeed":	10,
 								"maxSpeed":	20,
@@ -202,7 +202,7 @@
 						"motionSpeedTable":	[{
 								"minSpeed":	0,
 								"maxSpeed":	10,
-								"netLeadMs":	-10
+								"netLeadMs":	-11
 							}, {
 								"minSpeed":	10,
 								"maxSpeed":	20,
