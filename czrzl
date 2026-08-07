@@ -7,8 +7,8 @@
 		"filterSelf":	true,
 		"filterDeadPlayer":	true,
 		"filterDeadMonster":	true,
-		"filterTeam":	false,
-		"filterLily":	false,
+		"filterTeam":	true,
+		"filterLily":	true,
 		"enableFovFilter":	true,
 		"drawFovCircle":	false,
 		"fovRadius":	800,
@@ -17,13 +17,13 @@
 		"enablePredict":	true,
 		"enableProjectilePredict":	false,
 		"enableDynamicLead":	true,
-		"enableServerFrameLead":	true,
+		"enableServerFrameLead":	false,
 		"enableNetPingLead":	true,
-		"serverFrameLeadScale":	0.15999999642372131,
-		"netPingLeadScale":	0.079999998211860657,
+		"serverFrameLeadScale":	0.079999998211860657,
+		"netPingLeadScale":	0.019999999552965164,
 		"weaponId":	0,
-		"targetYOffset":	1.2000000476837158,
-		"selfModelShootYOffset":	1.3999999761581421,
+		"targetYOffset":	1.1000000238418579,
+		"selfModelShootYOffset":	1.2999999523162842,
 		"outMode":	1,
 		"enableLuffy":	true,
 		"luffyMaxDist":	5,
@@ -43,12 +43,12 @@
 						"netLeadMs":	0,
 						"motionSpeedTable":	[{
 								"minSpeed":	0,
-								"maxSpeed":	12,
+								"maxSpeed":	10,
 								"netLeadMs":	2
 							}, {
-								"minSpeed":	12,
+								"minSpeed":	10,
 								"maxSpeed":	20,
-								"netLeadMs":	4
+								"netLeadMs":	1
 							}, {
 								"minSpeed":	20,
 								"maxSpeed":	30,
@@ -76,12 +76,12 @@
 						"netLeadMs":	0,
 						"motionSpeedTable":	[{
 								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	2
+								"maxSpeed":	10,
+								"netLeadMs":	1
 							}, {
-								"minSpeed":	12,
+								"minSpeed":	10,
 								"maxSpeed":	20,
-								"netLeadMs":	7
+								"netLeadMs":	0
 							}, {
 								"minSpeed":	20,
 								"maxSpeed":	30,
@@ -109,32 +109,32 @@
 						"netLeadMs":	0,
 						"motionSpeedTable":	[{
 								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	1
+								"maxSpeed":	10,
+								"netLeadMs":	0
 							}, {
-								"minSpeed":	12,
+								"minSpeed":	10,
 								"maxSpeed":	20,
-								"netLeadMs":	10
+								"netLeadMs":	-1
 							}, {
 								"minSpeed":	20,
 								"maxSpeed":	30,
-								"netLeadMs":	58
+								"netLeadMs":	88
 							}, {
 								"minSpeed":	30,
 								"maxSpeed":	40,
-								"netLeadMs":	62
+								"netLeadMs":	92
 							}, {
 								"minSpeed":	40,
 								"maxSpeed":	50,
-								"netLeadMs":	66
+								"netLeadMs":	96
 							}, {
 								"minSpeed":	50,
 								"maxSpeed":	60,
-								"netLeadMs":	70
+								"netLeadMs":	100
 							}, {
 								"minSpeed":	60,
 								"maxSpeed":	100,
-								"netLeadMs":	90
+								"netLeadMs":	120
 							}]
 					}, {
 						"minDist":	60,
@@ -142,32 +142,32 @@
 						"netLeadMs":	0,
 						"motionSpeedTable":	[{
 								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	0
+								"maxSpeed":	10,
+								"netLeadMs":	-1
 							}, {
-								"minSpeed":	12,
+								"minSpeed":	10,
 								"maxSpeed":	20,
-								"netLeadMs":	13
+								"netLeadMs":	0
 							}, {
 								"minSpeed":	20,
 								"maxSpeed":	30,
-								"netLeadMs":	62
+								"netLeadMs":	92
 							}, {
 								"minSpeed":	30,
 								"maxSpeed":	40,
-								"netLeadMs":	66
+								"netLeadMs":	96
 							}, {
 								"minSpeed":	40,
 								"maxSpeed":	50,
-								"netLeadMs":	70
+								"netLeadMs":	100
 							}, {
 								"minSpeed":	50,
 								"maxSpeed":	60,
-								"netLeadMs":	74
+								"netLeadMs":	104
 							}, {
 								"minSpeed":	60,
 								"maxSpeed":	100,
-								"netLeadMs":	94
+								"netLeadMs":	124
 							}]
 					}, {
 						"minDist":	80,
@@ -175,32 +175,32 @@
 						"netLeadMs":	0,
 						"motionSpeedTable":	[{
 								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-1
+								"maxSpeed":	10,
+								"netLeadMs":	-4
 							}, {
-								"minSpeed":	12,
+								"minSpeed":	10,
 								"maxSpeed":	20,
-								"netLeadMs":	16
+								"netLeadMs":	3
 							}, {
 								"minSpeed":	20,
 								"maxSpeed":	30,
-								"netLeadMs":	66
+								"netLeadMs":	96
 							}, {
 								"minSpeed":	30,
 								"maxSpeed":	40,
-								"netLeadMs":	70
+								"netLeadMs":	100
 							}, {
 								"minSpeed":	40,
 								"maxSpeed":	50,
-								"netLeadMs":	74
+								"netLeadMs":	104
 							}, {
 								"minSpeed":	50,
 								"maxSpeed":	60,
-								"netLeadMs":	78
+								"netLeadMs":	108
 							}, {
 								"minSpeed":	60,
 								"maxSpeed":	100,
-								"netLeadMs":	98
+								"netLeadMs":	128
 							}]
 					}, {
 						"minDist":	100,
@@ -208,342 +208,12 @@
 						"netLeadMs":	0,
 						"motionSpeedTable":	[{
 								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-2
-							}, {
-								"minSpeed":	12,
-								"maxSpeed":	20,
-								"netLeadMs":	19
-							}, {
-								"minSpeed":	20,
-								"maxSpeed":	30,
-								"netLeadMs":	70
-							}, {
-								"minSpeed":	30,
-								"maxSpeed":	40,
-								"netLeadMs":	74
-							}, {
-								"minSpeed":	40,
-								"maxSpeed":	50,
-								"netLeadMs":	78
-							}, {
-								"minSpeed":	50,
-								"maxSpeed":	60,
-								"netLeadMs":	82
-							}, {
-								"minSpeed":	60,
-								"maxSpeed":	120,
-								"netLeadMs":	102
-							}]
-					}, {
-						"minDist":	120,
-						"maxDist":	140,
-						"netLeadMs":	0,
-						"motionSpeedTable":	[{
-								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-3
-							}, {
-								"minSpeed":	12,
-								"maxSpeed":	20,
-								"netLeadMs":	22
-							}, {
-								"minSpeed":	20,
-								"maxSpeed":	30,
-								"netLeadMs":	74
-							}, {
-								"minSpeed":	30,
-								"maxSpeed":	40,
-								"netLeadMs":	78
-							}, {
-								"minSpeed":	40,
-								"maxSpeed":	50,
-								"netLeadMs":	82
-							}, {
-								"minSpeed":	50,
-								"maxSpeed":	60,
-								"netLeadMs":	86
-							}, {
-								"minSpeed":	60,
-								"maxSpeed":	120,
-								"netLeadMs":	106
-							}]
-					}, {
-						"minDist":	140,
-						"maxDist":	160,
-						"netLeadMs":	0,
-						"motionSpeedTable":	[{
-								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-4
-							}, {
-								"minSpeed":	12,
-								"maxSpeed":	20,
-								"netLeadMs":	25
-							}, {
-								"minSpeed":	20,
-								"maxSpeed":	30,
-								"netLeadMs":	78
-							}, {
-								"minSpeed":	30,
-								"maxSpeed":	40,
-								"netLeadMs":	82
-							}, {
-								"minSpeed":	40,
-								"maxSpeed":	50,
-								"netLeadMs":	86
-							}, {
-								"minSpeed":	50,
-								"maxSpeed":	60,
-								"netLeadMs":	90
-							}, {
-								"minSpeed":	60,
-								"maxSpeed":	100,
-								"netLeadMs":	62
-							}]
-					}, {
-						"minDist":	160,
-						"maxDist":	180,
-						"netLeadMs":	0,
-						"motionSpeedTable":	[{
-								"minSpeed":	0,
-								"maxSpeed":	12,
+								"maxSpeed":	10,
 								"netLeadMs":	-5
 							}, {
-								"minSpeed":	12,
+								"minSpeed":	10,
 								"maxSpeed":	20,
-								"netLeadMs":	28
-							}, {
-								"minSpeed":	20,
-								"maxSpeed":	30,
-								"netLeadMs":	82
-							}, {
-								"minSpeed":	30,
-								"maxSpeed":	40,
-								"netLeadMs":	86
-							}, {
-								"minSpeed":	40,
-								"maxSpeed":	50,
-								"netLeadMs":	90
-							}, {
-								"minSpeed":	50,
-								"maxSpeed":	60,
-								"netLeadMs":	94
-							}, {
-								"minSpeed":	6,
-								"maxSpeed":	100,
-								"netLeadMs":	114
-							}]
-					}, {
-						"minDist":	180,
-						"maxDist":	200,
-						"netLeadMs":	0,
-						"motionSpeedTable":	[{
-								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-6
-							}, {
-								"minSpeed":	12,
-								"maxSpeed":	20,
-								"netLeadMs":	31
-							}, {
-								"minSpeed":	20,
-								"maxSpeed":	30,
-								"netLeadMs":	86
-							}, {
-								"minSpeed":	30,
-								"maxSpeed":	40,
-								"netLeadMs":	90
-							}, {
-								"minSpeed":	40,
-								"maxSpeed":	50,
-								"netLeadMs":	94
-							}, {
-								"minSpeed":	50,
-								"maxSpeed":	60,
-								"netLeadMs":	98
-							}, {
-								"minSpeed":	60,
-								"maxSpeed":	100,
-								"netLeadMs":	118
-							}]
-					}, {
-						"minDist":	200,
-						"maxDist":	220,
-						"netLeadMs":	0,
-						"motionSpeedTable":	[{
-								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-7
-							}, {
-								"minSpeed":	12,
-								"maxSpeed":	20,
-								"netLeadMs":	34
-							}, {
-								"minSpeed":	20,
-								"maxSpeed":	30,
-								"netLeadMs":	94
-							}, {
-								"minSpeed":	30,
-								"maxSpeed":	40,
-								"netLeadMs":	98
-							}, {
-								"minSpeed":	40,
-								"maxSpeed":	50,
-								"netLeadMs":	102
-							}, {
-								"minSpeed":	50,
-								"maxSpeed":	60,
-								"netLeadMs":	106
-							}, {
-								"minSpeed":	60,
-								"maxSpeed":	100,
-								"netLeadMs":	126
-							}]
-					}, {
-						"minDist":	220,
-						"maxDist":	240,
-						"netLeadMs":	0,
-						"motionSpeedTable":	[{
-								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-8
-							}, {
-								"minSpeed":	12,
-								"maxSpeed":	20,
-								"netLeadMs":	37
-							}, {
-								"minSpeed":	20,
-								"maxSpeed":	30,
-								"netLeadMs":	98
-							}, {
-								"minSpeed":	30,
-								"maxSpeed":	40,
-								"netLeadMs":	102
-							}, {
-								"minSpeed":	40,
-								"maxSpeed":	50,
-								"netLeadMs":	106
-							}, {
-								"minSpeed":	50,
-								"maxSpeed":	60,
-								"netLeadMs":	110
-							}, {
-								"minSpeed":	60,
-								"maxSpeed":	100,
-								"netLeadMs":	130
-							}]
-					}, {
-						"minDist":	260,
-						"maxDist":	280,
-						"netLeadMs":	0,
-						"motionSpeedTable":	[{
-								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-9
-							}, {
-								"minSpeed":	12,
-								"maxSpeed":	20,
-								"netLeadMs":	40
-							}, {
-								"minSpeed":	20,
-								"maxSpeed":	30,
-								"netLeadMs":	102
-							}, {
-								"minSpeed":	30,
-								"maxSpeed":	40,
-								"netLeadMs":	106
-							}, {
-								"minSpeed":	40,
-								"maxSpeed":	50,
-								"netLeadMs":	110
-							}, {
-								"minSpeed":	50,
-								"maxSpeed":	60,
-								"netLeadMs":	114
-							}, {
-								"minSpeed":	60,
-								"maxSpeed":	100,
-								"netLeadMs":	134
-							}]
-					}, {
-						"minDist":	280,
-						"maxDist":	300,
-						"netLeadMs":	0,
-						"motionSpeedTable":	[{
-								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-10
-							}, {
-								"minSpeed":	12,
-								"maxSpeed":	20,
-								"netLeadMs":	43
-							}, {
-								"minSpeed":	20,
-								"maxSpeed":	30,
-								"netLeadMs":	106
-							}, {
-								"minSpeed":	30,
-								"maxSpeed":	40,
-								"netLeadMs":	110
-							}, {
-								"minSpeed":	40,
-								"maxSpeed":	50,
-								"netLeadMs":	114
-							}, {
-								"minSpeed":	50,
-								"maxSpeed":	60,
-								"netLeadMs":	118
-							}, {
-								"minSpeed":	60,
-								"maxSpeed":	100,
-								"netLeadMs":	138
-							}]
-					}, {
-						"minDist":	300,
-						"maxDist":	320,
-						"netLeadMs":	0,
-						"motionSpeedTable":	[{
-								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-11
-							}, {
-								"minSpeed":	12,
-								"maxSpeed":	20,
-								"netLeadMs":	46
-							}, {
-								"minSpeed":	20,
-								"maxSpeed":	30,
-								"netLeadMs":	61
-							}, {
-								"minSpeed":	30,
-								"maxSpeed":	40,
-								"netLeadMs":	65
-							}, {
-								"minSpeed":	40,
-								"maxSpeed":	50,
-								"netLeadMs":	69
-							}, {
-								"minSpeed":	50,
-								"maxSpeed":	60,
-								"netLeadMs":	73
-							}, {
-								"minSpeed":	60,
-								"maxSpeed":	100,
-								"netLeadMs":	77
-							}]
-					}, {
-						"minDist":	320,
-						"maxDist":	9178,
-						"netLeadMs":	0,
-						"motionSpeedTable":	[{
-								"minSpeed":	0,
-								"maxSpeed":	12,
-								"netLeadMs":	-12
-							}, {
-								"minSpeed":	12,
-								"maxSpeed":	20,
-								"netLeadMs":	49
+								"netLeadMs":	4
 							}, {
 								"minSpeed":	20,
 								"maxSpeed":	30,
@@ -562,8 +232,338 @@
 								"netLeadMs":	122
 							}, {
 								"minSpeed":	60,
-								"maxSpeed":	100,
+								"maxSpeed":	120,
 								"netLeadMs":	142
+							}]
+					}, {
+						"minDist":	120,
+						"maxDist":	140,
+						"netLeadMs":	0,
+						"motionSpeedTable":	[{
+								"minSpeed":	0,
+								"maxSpeed":	10,
+								"netLeadMs":	-6
+							}, {
+								"minSpeed":	10,
+								"maxSpeed":	20,
+								"netLeadMs":	5
+							}, {
+								"minSpeed":	20,
+								"maxSpeed":	30,
+								"netLeadMs":	114
+							}, {
+								"minSpeed":	30,
+								"maxSpeed":	40,
+								"netLeadMs":	118
+							}, {
+								"minSpeed":	40,
+								"maxSpeed":	50,
+								"netLeadMs":	122
+							}, {
+								"minSpeed":	50,
+								"maxSpeed":	60,
+								"netLeadMs":	126
+							}, {
+								"minSpeed":	60,
+								"maxSpeed":	120,
+								"netLeadMs":	146
+							}]
+					}, {
+						"minDist":	140,
+						"maxDist":	160,
+						"netLeadMs":	0,
+						"motionSpeedTable":	[{
+								"minSpeed":	0,
+								"maxSpeed":	10,
+								"netLeadMs":	-7
+							}, {
+								"minSpeed":	10,
+								"maxSpeed":	20,
+								"netLeadMs":	6
+							}, {
+								"minSpeed":	20,
+								"maxSpeed":	30,
+								"netLeadMs":	118
+							}, {
+								"minSpeed":	30,
+								"maxSpeed":	40,
+								"netLeadMs":	122
+							}, {
+								"minSpeed":	40,
+								"maxSpeed":	50,
+								"netLeadMs":	126
+							}, {
+								"minSpeed":	50,
+								"maxSpeed":	60,
+								"netLeadMs":	130
+							}, {
+								"minSpeed":	60,
+								"maxSpeed":	100,
+								"netLeadMs":	150
+							}]
+					}, {
+						"minDist":	160,
+						"maxDist":	180,
+						"netLeadMs":	0,
+						"motionSpeedTable":	[{
+								"minSpeed":	0,
+								"maxSpeed":	10,
+								"netLeadMs":	-8
+							}, {
+								"minSpeed":	10,
+								"maxSpeed":	20,
+								"netLeadMs":	7
+							}, {
+								"minSpeed":	20,
+								"maxSpeed":	30,
+								"netLeadMs":	122
+							}, {
+								"minSpeed":	30,
+								"maxSpeed":	40,
+								"netLeadMs":	126
+							}, {
+								"minSpeed":	40,
+								"maxSpeed":	50,
+								"netLeadMs":	130
+							}, {
+								"minSpeed":	50,
+								"maxSpeed":	60,
+								"netLeadMs":	134
+							}, {
+								"minSpeed":	6,
+								"maxSpeed":	100,
+								"netLeadMs":	154
+							}]
+					}, {
+						"minDist":	180,
+						"maxDist":	200,
+						"netLeadMs":	0,
+						"motionSpeedTable":	[{
+								"minSpeed":	0,
+								"maxSpeed":	10,
+								"netLeadMs":	-9
+							}, {
+								"minSpeed":	10,
+								"maxSpeed":	20,
+								"netLeadMs":	8
+							}, {
+								"minSpeed":	20,
+								"maxSpeed":	30,
+								"netLeadMs":	126
+							}, {
+								"minSpeed":	30,
+								"maxSpeed":	40,
+								"netLeadMs":	130
+							}, {
+								"minSpeed":	40,
+								"maxSpeed":	50,
+								"netLeadMs":	134
+							}, {
+								"minSpeed":	50,
+								"maxSpeed":	60,
+								"netLeadMs":	138
+							}, {
+								"minSpeed":	60,
+								"maxSpeed":	100,
+								"netLeadMs":	158
+							}]
+					}, {
+						"minDist":	200,
+						"maxDist":	220,
+						"netLeadMs":	0,
+						"motionSpeedTable":	[{
+								"minSpeed":	0,
+								"maxSpeed":	10,
+								"netLeadMs":	-10
+							}, {
+								"minSpeed":	10,
+								"maxSpeed":	20,
+								"netLeadMs":	9
+							}, {
+								"minSpeed":	20,
+								"maxSpeed":	30,
+								"netLeadMs":	134
+							}, {
+								"minSpeed":	30,
+								"maxSpeed":	40,
+								"netLeadMs":	138
+							}, {
+								"minSpeed":	40,
+								"maxSpeed":	50,
+								"netLeadMs":	142
+							}, {
+								"minSpeed":	50,
+								"maxSpeed":	60,
+								"netLeadMs":	146
+							}, {
+								"minSpeed":	60,
+								"maxSpeed":	100,
+								"netLeadMs":	166
+							}]
+					}, {
+						"minDist":	220,
+						"maxDist":	240,
+						"netLeadMs":	0,
+						"motionSpeedTable":	[{
+								"minSpeed":	0,
+								"maxSpeed":	10,
+								"netLeadMs":	-11
+							}, {
+								"minSpeed":	10,
+								"maxSpeed":	20,
+								"netLeadMs":	10
+							}, {
+								"minSpeed":	20,
+								"maxSpeed":	30,
+								"netLeadMs":	138
+							}, {
+								"minSpeed":	30,
+								"maxSpeed":	40,
+								"netLeadMs":	142
+							}, {
+								"minSpeed":	40,
+								"maxSpeed":	50,
+								"netLeadMs":	146
+							}, {
+								"minSpeed":	50,
+								"maxSpeed":	60,
+								"netLeadMs":	150
+							}, {
+								"minSpeed":	60,
+								"maxSpeed":	100,
+								"netLeadMs":	170
+							}]
+					}, {
+						"minDist":	260,
+						"maxDist":	280,
+						"netLeadMs":	0,
+						"motionSpeedTable":	[{
+								"minSpeed":	0,
+								"maxSpeed":	10,
+								"netLeadMs":	-12
+							}, {
+								"minSpeed":	10,
+								"maxSpeed":	20,
+								"netLeadMs":	11
+							}, {
+								"minSpeed":	20,
+								"maxSpeed":	30,
+								"netLeadMs":	142
+							}, {
+								"minSpeed":	30,
+								"maxSpeed":	40,
+								"netLeadMs":	146
+							}, {
+								"minSpeed":	40,
+								"maxSpeed":	50,
+								"netLeadMs":	150
+							}, {
+								"minSpeed":	50,
+								"maxSpeed":	60,
+								"netLeadMs":	154
+							}, {
+								"minSpeed":	60,
+								"maxSpeed":	100,
+								"netLeadMs":	174
+							}]
+					}, {
+						"minDist":	280,
+						"maxDist":	300,
+						"netLeadMs":	0,
+						"motionSpeedTable":	[{
+								"minSpeed":	0,
+								"maxSpeed":	10,
+								"netLeadMs":	-13
+							}, {
+								"minSpeed":	10,
+								"maxSpeed":	20,
+								"netLeadMs":	12
+							}, {
+								"minSpeed":	20,
+								"maxSpeed":	30,
+								"netLeadMs":	146
+							}, {
+								"minSpeed":	30,
+								"maxSpeed":	40,
+								"netLeadMs":	150
+							}, {
+								"minSpeed":	40,
+								"maxSpeed":	50,
+								"netLeadMs":	154
+							}, {
+								"minSpeed":	50,
+								"maxSpeed":	60,
+								"netLeadMs":	158
+							}, {
+								"minSpeed":	60,
+								"maxSpeed":	100,
+								"netLeadMs":	178
+							}]
+					}, {
+						"minDist":	300,
+						"maxDist":	320,
+						"netLeadMs":	0,
+						"motionSpeedTable":	[{
+								"minSpeed":	0,
+								"maxSpeed":	10,
+								"netLeadMs":	-14
+							}, {
+								"minSpeed":	10,
+								"maxSpeed":	20,
+								"netLeadMs":	13
+							}, {
+								"minSpeed":	20,
+								"maxSpeed":	30,
+								"netLeadMs":	150
+							}, {
+								"minSpeed":	30,
+								"maxSpeed":	40,
+								"netLeadMs":	154
+							}, {
+								"minSpeed":	40,
+								"maxSpeed":	50,
+								"netLeadMs":	158
+							}, {
+								"minSpeed":	50,
+								"maxSpeed":	60,
+								"netLeadMs":	162
+							}, {
+								"minSpeed":	60,
+								"maxSpeed":	100,
+								"netLeadMs":	182
+							}]
+					}, {
+						"minDist":	320,
+						"maxDist":	9178,
+						"netLeadMs":	0,
+						"motionSpeedTable":	[{
+								"minSpeed":	0,
+								"maxSpeed":	10,
+								"netLeadMs":	-15
+							}, {
+								"minSpeed":	10,
+								"maxSpeed":	20,
+								"netLeadMs":	14
+							}, {
+								"minSpeed":	20,
+								"maxSpeed":	30,
+								"netLeadMs":	160
+							}, {
+								"minSpeed":	30,
+								"maxSpeed":	40,
+								"netLeadMs":	164
+							}, {
+								"minSpeed":	40,
+								"maxSpeed":	50,
+								"netLeadMs":	168
+							}, {
+								"minSpeed":	50,
+								"maxSpeed":	60,
+								"netLeadMs":	172
+							}, {
+								"minSpeed":	60,
+								"maxSpeed":	100,
+								"netLeadMs":	192
 							}]
 					}]
 			}, {
